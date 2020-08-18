@@ -1,0 +1,10 @@
+.footer{
+    background-color:rgba(63, 63, 63, 0.918);
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+}
+.footer h5{
+    text-align: center;
+    color: white;
+}

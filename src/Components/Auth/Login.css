@@ -1,0 +1,44 @@
+.loginContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    align-items: center;
+    justify-items: center;
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+.mainLog{
+    align-self: center;
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.mainLog img{
+    width: 70px;
+    height: 70px;
+    margin-left:40%;
+}
+.mainLog h2{
+    margin-left: 40%;
+    color: rgba(199, 123, 115, 0.788);
+    line-height: 0px;
+}
+.logInput{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px;
+}
+.logInput button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(46, 139, 86, 0.705);
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-top: 10px;
+}

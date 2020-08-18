@@ -1,0 +1,25 @@
+.formContainer{
+    display: grid;
+    width: 100%;
+    margin: 10px;
+}
+.formContainer input{
+    width: 100%;
+}
+.formContainer button{
+    width: 20%;
+    margin: 20px;
+    margin-left: 140px;
+    background-color: rgb(15, 16, 61);
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+}
+.formContainer button:hover{
+    cursor: pointer;
+}
+.head h2{
+    text-align: center;
+}

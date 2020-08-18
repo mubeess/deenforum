@@ -1,0 +1,26 @@
+.summary{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 400px;
+    padding: 50px;
+
+}
+.summary .sumHeader{
+    grid-column: 1/5;
+    text-align: center;
+    color: rgb(6, 139, 221);
+}
+.summary .sumProfile{
+    background-color: #f2f2f2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+.summary .sumProfile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
